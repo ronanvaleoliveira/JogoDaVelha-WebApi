@@ -26,44 +26,7 @@ namespace JogoDaVelha.Domain.Modelo
                 .IsFalse(StatusGame == StatusGameEnum.Empate, "StatusGame", "Partida encerrada! Não será possível executar o movimento.")
                 );
         }
-        //public ValidationAppResult ValidaGame(MovementModel movementModel)
-        //{
-        //    var appResult = new ValidationAppResult();
-
-        //    if (StatusGame == StatusGameEnum.TemVencedor || StatusGame == StatusGameEnum.Empate)
-        //    {
-        //        appResult.AddErro($@"Não é possível efetuar a jogada, pois a partida encerrada!");
-        //        return appResult;
-        //    }
-
-        //    //Verifica player vazio
-        //    if (string.IsNullOrEmpty(movementModel.Player))
-        //        appResult.AddErro($@"Favor informar o Player que esta realizando a jogada!");
-
-        //    //Verifica player diferente de X ou y
-        //    if (movementModel.Player.ToUpper() != "X" && movementModel.Player.ToUpper() != "O")
-        //        appResult.AddErro($@"Os valores aceitos para o campo Player são 'X' ou 'O'");
-
-        //    //Verifica o turno do jogador
-        //    if (!movementModel.Player.ToUpper().Equals(PlayerTurn))
-        //        appResult.AddErro($@"Não é o turno do jogador {movementModel.Player.ToUpper()}!");
-
-        //    //Validar se x < 0 ou x > 2
-        //    if (movementModel.Position.X < 0 || movementModel.Position.X > 2)
-        //        appResult.AddErro($@"Movimento inválido, a posição 'X' tem que estar entre 0 e 2!");
-
-        //    //Validar se y < 0 ou y > 2
-        //    if (movementModel.Position.X < 0 || movementModel.Position.X > 2)
-        //        appResult.AddErro($@"Movimento inválido, a posição 'Y' tem que estar entre 0 e 2!");
-
-        //    //Validar se a posição xy já foi utilizada
-        //    if (!Tabuleiro[movementModel.Position.X, movementModel.Position.Y].Equals(string.Empty))
-        //        appResult.AddErro($@"Movimento inválido, a posição 'X'{movementModel.Position.X}'Y'{movementModel.Position.Y} já esta sendo utilizada!");
-
-
-
-        //    return appResult;
-        //}
+       
 
 
         public static class GameModelFactory
