@@ -17,8 +17,11 @@ O objetivo deste projeto foi desenvolver uma api para um jogo multiplayer de **J
 A api poderá ser testada de duas maneiras:
 1. **Swagger:** Ao executar o projeto, a página inicial do swagger será apresentada listando todas as chamadas disponíveis.
 https://localhost:44321/swagger/index.html
+![image](https://user-images.githubusercontent.com/13223097/93942705-54f28600-fd07-11ea-902d-33a67c2f5552.png)
 
 2. **Postman:** Caso queira utilizar o Postman, basta importar o arquivo **"Jogo da Velha.postman_collection.json"** disponibilizado neste repositório.
+![image](https://user-images.githubusercontent.com/13223097/93942752-6b004680-fd07-11ea-9359-fbbde763a7e6.png)
+
 
 
 ## Chamadas
