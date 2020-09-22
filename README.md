@@ -6,7 +6,7 @@ O objetivo deste projeto foi desenvolver uma api para um jogo multiplayer de **J
 
 ## Instruções para executar a API
 
-1.	Clonar ou baixar o repositório do git https://github.com/ronanvaleoliveira/ProjetoApi.git
+1.	Clonar ou baixar o repositório do git https://github.com/ronanvaleoliveira/JogoDaVelha-WebApi.git
 2.	Abrir o arquivo projeto utilizando Visual Studio.
 3.	Executar o projeto.
 
