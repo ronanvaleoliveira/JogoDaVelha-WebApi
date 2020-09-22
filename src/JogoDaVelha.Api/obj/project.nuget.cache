@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VlC6WHDwfz8og3uemAzKZsxfGQjJYK6unwsVv1y0ivFX8idNnDsKHSHod3zAjPYi4TbqwIlE9b9lbCJfOpte6A==",
+  "dgSpecHash": "bPEpuVVVnmEWHjxnYDQVNa1AuTq6By8DIKdt3rrELGxfeM/erx6de851AKqFXf5Al0Xk9A1OnPx7ENqzMz3Ysw==",
   "success": true,
   "projectFilePath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Api\\JogoDaVelha.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ronan.oliveira\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\ronan.oliveira\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

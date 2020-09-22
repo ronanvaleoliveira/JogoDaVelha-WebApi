@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Flunt/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1871,10 +1880,47 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "JogoDaVelha.CrossCutting.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/JogoDaVelha.CrossCutting.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JogoDaVelha.CrossCutting.Lib.dll": {}
+        }
+      },
+      "JogoDaVelha.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Flunt": "1.0.5",
+          "JogoDaVelha.CrossCutting.Lib": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/JogoDaVelha.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JogoDaVelha.Domain.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Flunt/1.0.5": {
+      "sha512": "2p1B/LLsMf0bGwyMQK48/278OXTodXn3HyTU1v7fr/x0bNfrVSNC1Do1PxbgiOlDLChtAbtt1kPgXFqUnGAagg==",
+      "type": "package",
+      "path": "flunt/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.1.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "sha512": "Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
       "type": "package",
@@ -6181,10 +6227,21 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "JogoDaVelha.CrossCutting.Lib/1.0.0": {
+      "type": "project",
+      "path": "../JogoDaVelha.CrossCutting.Lib/JogoDaVelha.CrossCutting.Lib.csproj",
+      "msbuildProject": "../JogoDaVelha.CrossCutting.Lib/JogoDaVelha.CrossCutting.Lib.csproj"
+    },
+    "JogoDaVelha.Domain/1.0.0": {
+      "type": "project",
+      "path": "../JogoDaVelha.Domain/JogoDaVelha.Domain.csproj",
+      "msbuildProject": "../JogoDaVelha.Domain/JogoDaVelha.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "JogoDaVelha.Domain >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
       "Newtonsoft.Json >= 12.0.3",
       "Swashbuckle.AspNetCore >= 5.6.2",
@@ -6220,7 +6277,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj": {
+              "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
