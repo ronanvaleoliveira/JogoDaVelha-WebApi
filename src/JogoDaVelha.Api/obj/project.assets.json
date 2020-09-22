@@ -1871,27 +1871,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "JogoDaVelha.CrossCutting.Lib/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/JogoDaVelha.CrossCutting.Lib.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/JogoDaVelha.CrossCutting.Lib.dll": {}
-        }
-      },
-      "JogoDaVelha.Domain/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "JogoDaVelha.CrossCutting.Lib": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/JogoDaVelha.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/JogoDaVelha.Domain.dll": {}
-        }
       }
     }
   },
@@ -6202,21 +6181,10 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "JogoDaVelha.CrossCutting.Lib/1.0.0": {
-      "type": "project",
-      "path": "../JogoDaVelha.CrossCutting.Lib/JogoDaVelha.CrossCutting.Lib.csproj",
-      "msbuildProject": "../JogoDaVelha.CrossCutting.Lib/JogoDaVelha.CrossCutting.Lib.csproj"
-    },
-    "JogoDaVelha.Domain/1.0.0": {
-      "type": "project",
-      "path": "../JogoDaVelha.Domain/JogoDaVelha.Domain.csproj",
-      "msbuildProject": "../JogoDaVelha.Domain/JogoDaVelha.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "JogoDaVelha.Domain >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
       "Newtonsoft.Json >= 12.0.3",
       "Swashbuckle.AspNetCore >= 5.6.2",
@@ -6252,11 +6220,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj": {
-              "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

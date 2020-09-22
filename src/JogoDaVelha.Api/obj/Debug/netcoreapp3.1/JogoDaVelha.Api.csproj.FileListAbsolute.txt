@@ -1,11 +1,5 @@
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\237f611f-2103-463c-ac0f-104c61cb08d1.json
-C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\238d2278-46fa-485b-b5f2-9f505fdabb03.json
-C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\2c0685a6-696d-446a-ba0a-29886e195c30.json
-C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\506f6e99-ae6b-4276-ad35-e98976d8cd35.json
-C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\76bac97b-c53b-4dc0-bd3a-89b8bc3ee155.json
-C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\b898a87b-3745-43be-a5d2-19f46f175108.json
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\JogoDaVelha.Api.exe
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\JogoDaVelha.Api.deps.json
@@ -109,4 +103,3 @@ C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\sta
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.dll
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.pdb
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.genruntimeconfig.cache
-C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\a661fb39-f24b-4af9-8ad3-6a5bd09ad3ea.json

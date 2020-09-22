@@ -29,11 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj": {
-                "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -82,37 +78,6 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.CrossCutting.Lib\\JogoDaVelha.CrossCutting.Lib.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.CrossCutting.Lib\\JogoDaVelha.CrossCutting.Lib.csproj",
-        "projectName": "JogoDaVelha.CrossCutting.Lib",
-        "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.CrossCutting.Lib\\JogoDaVelha.CrossCutting.Lib.csproj"
-      },
-      "frameworks": {
-        "net472": {}
-      }
-    },
-    "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj",
-        "projectName": "JogoDaVelha.Domain",
-        "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj",
-        "frameworks": {
-          "net472": {
-            "projectReferences": {
-              "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.CrossCutting.Lib\\JogoDaVelha.CrossCutting.Lib.csproj": {
-                "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.CrossCutting.Lib\\JogoDaVelha.CrossCutting.Lib.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
       }
     }
   }
