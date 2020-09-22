@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JogoDaVelha.Api</name>
+    </assembly>
+    <members>
+        <member name="T:JogoDaVelha.Api.Controllers.GameController">
+            <summary>
+            Documentação da controller
+            </summary>
+        </member>
+        <member name="M:JogoDaVelha.Api.Controllers.GameController.Post(JogoDaVelha.Domain.Operadores.OperadorGame)">
+            <summary>
+            Cria uma nova partida e sorteia o primeiro jogador.
+            </summary>
+            <param name="operador"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JogoDaVelha.Api.Controllers.GameController.Post(JogoDaVelha.Domain.Comandos.ComandoExecutarMovimento,JogoDaVelha.Domain.Operadores.OperadorGame,System.Guid)">
+            <summary>
+            Executa o movimento de cada jogador na partida.
+            </summary>
+            <remarks>
+            RN1 - O campo "Player" deverá conter o valor de cada jogador ("X" ou "O").<br/>
+            RN2 - O campo "Position" deverá conter as coordenadas [X, Y] de onde será efetuada o movimento.<br/>
+            <br/>
+            Posições do Tabuleiro:  
+            [0,0]   [1,0]	[2,0]<br/>
+            [0,1]	[1,1]	[2,1]<br/>
+            [0,2]	[1,2]	[2,2]<br/>
+            <br/>
+            </remarks>
+            <param name="comando">Objeto que contem as intruções para a execução do movimento</param>
+            <param name="operador"></param>
+            <param name="id">Identificador da partida</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

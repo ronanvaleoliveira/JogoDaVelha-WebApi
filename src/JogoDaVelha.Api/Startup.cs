@@ -1,4 +1,5 @@
-﻿using JogoDaVelha.Domain.Operadores;
+﻿using JogoDaVelha.Api.Swagger;
+using JogoDaVelha.Domain.Operadores;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,6 +24,8 @@ namespace JogoDaVelha.Api
             services.AddTransient<OperadorGame, OperadorGame>();
 
             services.AddControllers();
+
+            SwaggerConfiguration.Config(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +45,13 @@ namespace JogoDaVelha.Api
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.UseSwagger();
+            app.UseSwaggerUI(options =>
+            {
+                string swaggerJsonBasePath = string.IsNullOrWhiteSpace(options.RoutePrefix) ? "." : "..";
+                options.SwaggerEndpoint($"{swaggerJsonBasePath}/swagger/v1/swagger.json", "API v1");
             });
         }
     }

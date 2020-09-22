@@ -187,8 +187,6 @@ C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\zh-
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\JogoDaVelha.CrossCutting.Lib.dll
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\JogoDaVelha.CrossCutting.Lib.pdb
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.csprojAssemblyReference.cache
-C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.csproj.CoreCompileInputs.cache
-C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.AssemblyInfoInputs.cache
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.AssemblyInfo.cs
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.RazorTargetAssemblyInfo.cache
@@ -202,3 +200,15 @@ C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\Loc
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\JogoDaVelha.Domain.dll
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\JogoDaVelha.Domain.pdb
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\Flunt.dll
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\2c0685a6-696d-446a-ba0a-29886e195c30.json
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\b898a87b-3745-43be-a5d2-19f46f175108.json
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.csproj.CoreCompileInputs.cache
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\JogoDaVelha.Api.xml
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\237f611f-2103-463c-ac0f-104c61cb08d1.json
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\506f6e99-ae6b-4276-ad35-e98976d8cd35.json

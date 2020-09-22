@@ -4,9 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\JogoDaVelha.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.2" />
   </ItemGroup>
 
   <ItemGroup>
