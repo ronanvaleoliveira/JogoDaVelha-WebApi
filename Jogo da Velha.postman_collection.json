@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "884d66ae-5ac4-457b-bdfb-b438a1fb0b77",
+		"name": "03 - JogoDaVelha-WebApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 - v1/game",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44321/v1/game",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44321",
+					"path": [
+						"v1",
+						"game"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 - v1/game/{id}/movement",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Player\": \"x\",\r\n    \"Position\": {\r\n    \t\"X\": 2,\r\n    \t\"Y\": 0\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44321/v1/game/b898a87b-3745-43be-a5d2-19f46f175108/movement",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44321",
+					"path": [
+						"v1",
+						"game",
+						"b898a87b-3745-43be-a5d2-19f46f175108",
+						"movement"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

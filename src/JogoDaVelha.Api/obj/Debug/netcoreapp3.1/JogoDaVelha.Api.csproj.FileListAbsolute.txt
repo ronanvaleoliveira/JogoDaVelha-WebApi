@@ -109,3 +109,4 @@ C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\sta
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.dll
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.pdb
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\JogoDaVelha.Api.genruntimeconfig.cache
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\a661fb39-f24b-4af9-8ad3-6a5bd09ad3ea.json

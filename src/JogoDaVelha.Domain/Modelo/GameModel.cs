@@ -22,8 +22,8 @@ namespace JogoDaVelha.Domain.Modelo
             AddNotifications(
                 new Contract()
                 .Requires()
-                .IsFalse(StatusGame == StatusGameEnum.TemVencedor, "StatusGame", "Partida encerrada! Náo será possível executar o movimento.")
-                .IsFalse(StatusGame == StatusGameEnum.Empate, "StatusGame", "Partida encerrada! Náo será possível executar o movimento.")
+                .IsFalse(StatusGame == StatusGameEnum.TemVencedor, "StatusGame", "Partida encerrada! Não será possível executar o movimento.")
+                .IsFalse(StatusGame == StatusGameEnum.Empate, "StatusGame", "Partida encerrada! Não será possível executar o movimento.")
                 );
         }
         //public ValidationAppResult ValidaGame(MovementModel movementModel)
