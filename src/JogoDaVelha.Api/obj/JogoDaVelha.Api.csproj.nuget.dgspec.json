@@ -1,0 +1,111 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Api\\JogoDaVelha.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Api\\JogoDaVelha.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Api\\JogoDaVelha.Api.csproj",
+        "projectName": "JogoDaVelha.Api",
+        "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Api\\JogoDaVelha.Api.csproj",
+        "packagesPath": "C:\\Users\\ronan.oliveira\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ronan.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj": {
+                "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.CrossCutting.Lib\\JogoDaVelha.CrossCutting.Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.CrossCutting.Lib\\JogoDaVelha.CrossCutting.Lib.csproj",
+        "projectName": "JogoDaVelha.CrossCutting.Lib",
+        "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.CrossCutting.Lib\\JogoDaVelha.CrossCutting.Lib.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj",
+        "projectName": "JogoDaVelha.Domain",
+        "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.CrossCutting.Lib\\JogoDaVelha.CrossCutting.Lib.csproj": {
+                "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.CrossCutting.Lib\\JogoDaVelha.CrossCutting.Lib.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

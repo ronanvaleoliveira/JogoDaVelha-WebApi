@@ -329,3 +329,11 @@ ASALocalRun /
 
 Pasta de trabalho # MFractors (ferramenta de produtividade Xamarin)
 .mfractor /
+/packages
+/src/JogoDaVelha.Api/bin/Debug/netcoreapp3.1
+/src/JogoDaVelha.Api/LocalStorage_JogoDaVelha
+/src/JogoDaVelha.Application/bin/Debug
+/src/JogoDaVelha.CrossCutting.Lib/bin/Debug
+/src/JogoDaVelha.CrossCutting.Lib/obj/Debug
+/src/JogoDaVelha.Dominio/bin/Debug
+/src/JogoDaVelha.Dominio/obj/Debug
