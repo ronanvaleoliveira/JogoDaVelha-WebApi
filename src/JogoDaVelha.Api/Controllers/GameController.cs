@@ -22,7 +22,6 @@ namespace JogoDaVelha.Api.Controllers
         [Route("{id}/movement")]
         public ComandoGenericoResposta Post([FromBody] ComandoExecutarMovimento comando, [FromServices] OperadorGame operador, Guid id)
         {
-            //TODO: padronizar a linguagem (de preferencia passar tudo para portugues)
             return (ComandoGenericoResposta)operador.Exec(comando, id);
         }
     }

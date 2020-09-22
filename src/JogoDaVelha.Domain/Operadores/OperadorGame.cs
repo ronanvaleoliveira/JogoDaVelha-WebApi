@@ -3,7 +3,12 @@ using JogoDaVelha.Domain.Comandos;
 using JogoDaVelha.Domain.Comandos.Contratos;
 using JogoDaVelha.Domain.Lib;
 using JogoDaVelha.Domain.Modelo;
+using System.Linq;
 using System;
+using Flunt.Notifications;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using JogoDaVelha.CrossCutting.Lib.Extensions;
 
 namespace JogoDaVelha.Domain.Operadores
 {
@@ -32,19 +37,27 @@ namespace JogoDaVelha.Domain.Operadores
             }
         }
 
+
+
+
         public IComandoResposta Exec(ComandoExecutarMovimento comando, Guid id)
         {
+            var result = new MovementMessageModel();
             try
             {
+
                 //Recupera o jogo
                 var gameModel = FileLib.GetJsonFile(id);
 
-                //TODO RVO Executar a validação...
-                //Executa a validação dos objetos
-                //result.ResultValidation = gameModel.ValidaGame(movementModel);
+                
+                //Executa as validações do movimento
+                ValidaMovimento(comando, gameModel, result);
+                if (result.Invalid)
+                    return new ComandoGenericoResposta(false, "Erro ao executar movimento.", result);
+
 
                 //Executa o movimento
-                GameModel.GameModelFactory.ExecutarMovimento(gameModel, comando.Position.X, comando.Position.Y, comando.Player);
+                GameModel.GameModelFactory.ExecutarMovimento(gameModel, comando.Position.X.ToInt32(0), comando.Position.Y.ToInt32(0), comando.Player);
 
 
                 //Verifica o Termino da partida
@@ -53,25 +66,44 @@ namespace JogoDaVelha.Domain.Operadores
                 //Atualiza o jsonFile
                 FileLib.CreateJsonFile(gameModel);
 
-                var result = new MovementMessageModel();
 
                 result.PlayerTurn = gameModel.PlayerTurn;
                 result.Winner = gameModel.Winner;
                 result.Status = gameModel.StatusGame.GetDescription();
 
 
-
                 return new ComandoGenericoResposta(true, "Movimento executado com sucesso.", result);
             }
             catch (Exception ex)
             {
-
-                return new ComandoGenericoResposta(false, $@"Erro ao executar movimento. {ex.Message}", null);
+                result.AddNotification("", ex.Message);
+                return new ComandoGenericoResposta(false, $@"Erro ao executar movimento.", result);
 
             }
 
         }
 
+        private static void ValidaMovimento(ComandoExecutarMovimento comando, GameModel gameModel, MovementMessageModel result)
+        {
+            gameModel.Validate();
+            if (gameModel.Invalid)
+                result.AddNotifications(gameModel.Notifications);
 
+            comando.Validate();
+            if (comando.Invalid)
+                result.AddNotifications(comando.Notifications);
+
+
+            if (result.Valid)
+            {
+                //Verifica o turno do jogador
+                if (!comando.Player.ToUpper().Equals(gameModel.PlayerTurn))
+                    result.AddNotification("Player", $@"Não é o turno do jogador {comando.Player.ToUpper()}!");
+
+                //Validar se a posição xy já foi utilizada
+                if (!gameModel.Tabuleiro[comando.Position.X.ToInt32(0), comando.Position.Y.ToInt32(0)].Equals(string.Empty))
+                    result.AddNotification("Tabuleiro", $@"Movimento inválido! A posição 'X'{comando.Position.X}'Y'{comando.Position.Y} já esta sendo utilizada.");
+            }
+        }
     }
 }

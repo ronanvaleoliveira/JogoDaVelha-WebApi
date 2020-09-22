@@ -201,3 +201,4 @@ C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\obj\Debug\netcoreapp3.1\Jog
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\LocalStorage_JogoDaVelha\238d2278-46fa-485b-b5f2-9f505fdabb03.json
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\JogoDaVelha.Domain.dll
 C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\JogoDaVelha.Domain.pdb
+C:\Dev\GitHub\JogoDaVelha-WebApi\src\JogoDaVelha.Api\bin\Debug\netcoreapp3.1\Flunt.dll

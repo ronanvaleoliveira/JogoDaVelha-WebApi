@@ -1,11 +1,14 @@
-﻿using JogoDaVelha.CrossCutting.Lib.Enumerators;
+﻿using Flunt.Notifications;
+using Flunt.Validations;
+using JogoDaVelha.Domain.Comandos.Contratos;
+using JogoDaVelha.CrossCutting.Lib.Enumerators;
 using JogoDaVelha.Domain.Lib;
 using System;
 using System.Collections.Generic;
 
 namespace JogoDaVelha.Domain.Modelo
 {
-    public class GameModel
+    public class GameModel : Notifiable, IComando
     {
 
         public Guid Id { get; set; }
@@ -14,7 +17,15 @@ namespace JogoDaVelha.Domain.Modelo
         public string[,] Tabuleiro { get; set; }
         public string Winner { get; set; }
 
-
+        public void Validate()
+        {
+            AddNotifications(
+                new Contract()
+                .Requires()
+                .IsFalse(StatusGame == StatusGameEnum.TemVencedor, "StatusGame", "Partida encerrada! Náo será possível executar o movimento.")
+                .IsFalse(StatusGame == StatusGameEnum.Empate, "StatusGame", "Partida encerrada! Náo será possível executar o movimento.")
+                );
+        }
         //public ValidationAppResult ValidaGame(MovementModel movementModel)
         //{
         //    var appResult = new ValidationAppResult();
