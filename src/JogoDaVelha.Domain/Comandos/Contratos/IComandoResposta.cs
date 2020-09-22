@@ -1,4 +1,4 @@
-﻿namespace JogoDaVelha.Dominio.Comandos.Contratos
+﻿namespace JogoDaVelha.Domain.Comandos.Contratos
 {
     public interface IComandoResposta
     {

@@ -1,4 +1,4 @@
-﻿using JogoDaVelha.Dominio.Operadores;
+﻿using JogoDaVelha.Domain.Operadores;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

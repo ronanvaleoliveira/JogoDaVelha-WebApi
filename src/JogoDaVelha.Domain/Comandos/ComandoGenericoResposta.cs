@@ -1,6 +1,6 @@
-﻿using JogoDaVelha.Dominio.Comandos.Contratos;
+﻿using JogoDaVelha.Domain.Comandos.Contratos;
 
-namespace JogoDaVelha.Dominio.Comandos
+namespace JogoDaVelha.Domain.Comandos
 {
     public class ComandoGenericoResposta : IComandoResposta
     {

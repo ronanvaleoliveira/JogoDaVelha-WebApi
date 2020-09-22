@@ -1,5 +1,5 @@
-﻿using JogoDaVelha.Dominio.Comandos;
-using JogoDaVelha.Dominio.Operadores;
+﻿using JogoDaVelha.Domain.Comandos;
+using JogoDaVelha.Domain.Operadores;
 using Microsoft.AspNetCore.Mvc;
 using System;
 

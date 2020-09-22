@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj": {
-                "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj"
+              "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj": {
+                "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj"
               }
             }
           }
@@ -87,12 +87,12 @@
         "net472": {}
       }
     },
-    "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj": {
+    "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj",
+        "projectUniqueName": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj",
         "projectName": "JogoDaVelha.Domain",
-        "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj",
+        "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {

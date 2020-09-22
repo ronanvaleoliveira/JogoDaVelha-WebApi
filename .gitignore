@@ -332,8 +332,12 @@ Pasta de trabalho # MFractors (ferramenta de produtividade Xamarin)
 /packages
 /src/JogoDaVelha.Api/bin/Debug/netcoreapp3.1
 /src/JogoDaVelha.Api/LocalStorage_JogoDaVelha
+/src/JogoDaVelha.Api/obj
+/src/JogoDaVelha.Api/obj/Debug
+/src/JogoDaVelha.Api/obj/Debug/netcoreapp3.1
 /src/JogoDaVelha.Application/bin/Debug
 /src/JogoDaVelha.CrossCutting.Lib/bin/Debug
 /src/JogoDaVelha.CrossCutting.Lib/obj/Debug
-/src/JogoDaVelha.Dominio/bin/Debug
-/src/JogoDaVelha.Dominio/obj/Debug
+/src/JogoDaVelha.Domain/bin/Debug
+/src/JogoDaVelha.Domain/obj/Debug
+/.vs

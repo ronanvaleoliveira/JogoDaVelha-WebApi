@@ -1,4 +1,4 @@
-﻿namespace JogoDaVelha.Dominio.Modelo
+﻿namespace JogoDaVelha.Domain.Modelo
 {
     public class GameMessagemModel
     {

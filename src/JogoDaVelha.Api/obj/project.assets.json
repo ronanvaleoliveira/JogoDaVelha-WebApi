@@ -6029,8 +6029,8 @@
     },
     "JogoDaVelha.Domain/1.0.0": {
       "type": "project",
-      "path": "../JogoDaVelha.Dominio/JogoDaVelha.Domain.csproj",
-      "msbuildProject": "../JogoDaVelha.Dominio/JogoDaVelha.Domain.csproj"
+      "path": "../JogoDaVelha.Domain/JogoDaVelha.Domain.csproj",
+      "msbuildProject": "../JogoDaVelha.Domain/JogoDaVelha.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6070,8 +6070,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj": {
-              "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Dominio\\JogoDaVelha.Domain.csproj"
+            "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj": {
+              "projectPath": "C:\\Dev\\GitHub\\JogoDaVelha-WebApi\\src\\JogoDaVelha.Domain\\JogoDaVelha.Domain.csproj"
             }
           }
         }

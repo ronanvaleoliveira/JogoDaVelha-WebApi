@@ -1,11 +1,11 @@
 ﻿using JogoDaVelha.CrossCutting.Lib.Enumerators;
-using JogoDaVelha.Dominio.Comandos;
-using JogoDaVelha.Dominio.Comandos.Contratos;
-using JogoDaVelha.Dominio.Lib;
-using JogoDaVelha.Dominio.Modelo;
+using JogoDaVelha.Domain.Comandos;
+using JogoDaVelha.Domain.Comandos.Contratos;
+using JogoDaVelha.Domain.Lib;
+using JogoDaVelha.Domain.Modelo;
 using System;
 
-namespace JogoDaVelha.Dominio.Operadores
+namespace JogoDaVelha.Domain.Operadores
 {
     public class OperadorGame : OperadorBase
     {

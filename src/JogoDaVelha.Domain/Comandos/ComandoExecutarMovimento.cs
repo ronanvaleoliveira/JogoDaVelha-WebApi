@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JogoDaVelha.Dominio.Comandos
+namespace JogoDaVelha.Domain.Comandos
 {
     public class ComandoExecutarMovimento
     {

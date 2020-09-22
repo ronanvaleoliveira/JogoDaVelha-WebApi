@@ -1,9 +1,9 @@
 ﻿using JogoDaVelha.CrossCutting.Lib.Enumerators;
-using JogoDaVelha.Dominio.Lib;
+using JogoDaVelha.Domain.Lib;
 using System;
 using System.Collections.Generic;
 
-namespace JogoDaVelha.Dominio.Modelo
+namespace JogoDaVelha.Domain.Modelo
 {
     public class GameModel
     {

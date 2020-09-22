@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - CrossCutting", "4 - Cro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogoDaVelha.CrossCutting.Lib", "src\JogoDaVelha.CrossCutting.Lib\JogoDaVelha.CrossCutting.Lib.csproj", "{811A2561-585C-4A72-9B62-A3F87F816253}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogoDaVelha.Domain", "src\JogoDaVelha.Dominio\JogoDaVelha.Domain.csproj", "{B85B9913-0C22-44EF-BD7E-57638248C8FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogoDaVelha.Domain", "src\JogoDaVelha.Domain\JogoDaVelha.Domain.csproj", "{B85B9913-0C22-44EF-BD7E-57638248C8FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

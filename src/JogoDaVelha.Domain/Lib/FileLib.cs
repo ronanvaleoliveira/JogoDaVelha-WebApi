@@ -1,9 +1,9 @@
-﻿using JogoDaVelha.Dominio.Modelo;
+﻿using JogoDaVelha.Domain.Modelo;
 using Newtonsoft.Json;
 using System;
 using System.IO;
 
-namespace JogoDaVelha.Dominio.Lib
+namespace JogoDaVelha.Domain.Lib
 {
     public static class FileLib
     {
