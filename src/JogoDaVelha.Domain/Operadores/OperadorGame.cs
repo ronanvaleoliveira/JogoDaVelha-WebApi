@@ -54,11 +54,11 @@ namespace JogoDaVelha.Domain.Operadores
 
 
                 //Executa o movimento
-                GameFactory.ExecutarMovimento(gameModel, comando.Position.X.ToInt32(0), comando.Position.Y.ToInt32(0), comando.Player);
+                GameEngine.ExecutarMovimento(gameModel, comando.Position.X.ToInt32(0), comando.Position.Y.ToInt32(0), comando.Player);
 
 
                 //Verifica o Termino da partida
-                GameFactory.VerificarStatusPartida(gameModel);
+                GameEngine.VerificarStatusPartida(gameModel);
 
                 //Atualiza o jsonFile
                 FileLib.CreateJsonFile(gameModel);
