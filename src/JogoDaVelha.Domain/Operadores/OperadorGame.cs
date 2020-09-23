@@ -1,14 +1,11 @@
 ﻿using JogoDaVelha.CrossCutting.Lib.Enumerators;
+using JogoDaVelha.CrossCutting.Lib.Extensions;
 using JogoDaVelha.Domain.Comandos;
 using JogoDaVelha.Domain.Comandos.Contratos;
+using JogoDaVelha.Domain.Factory;
 using JogoDaVelha.Domain.Lib;
 using JogoDaVelha.Domain.Modelo;
-using System.Linq;
 using System;
-using Flunt.Notifications;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using JogoDaVelha.CrossCutting.Lib.Extensions;
 
 namespace JogoDaVelha.Domain.Operadores
 {
@@ -20,7 +17,7 @@ namespace JogoDaVelha.Domain.Operadores
             try
             {
 
-                var game = GameModel.GameModelFactory.StartNewGame();
+                var game = GameFactory.StartNewGame();
 
                 var result = new GameMessagemModel();
 
@@ -57,11 +54,11 @@ namespace JogoDaVelha.Domain.Operadores
 
 
                 //Executa o movimento
-                GameModel.GameModelFactory.ExecutarMovimento(gameModel, comando.Position.X.ToInt32(0), comando.Position.Y.ToInt32(0), comando.Player);
+                GameFactory.ExecutarMovimento(gameModel, comando.Position.X.ToInt32(0), comando.Position.Y.ToInt32(0), comando.Player);
 
 
                 //Verifica o Termino da partida
-                GameModel.GameModelFactory.VerificarStatusPartida(gameModel);
+                GameFactory.VerificarStatusPartida(gameModel);
 
                 //Atualiza o jsonFile
                 FileLib.CreateJsonFile(gameModel);
